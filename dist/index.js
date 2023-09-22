@@ -6054,7 +6054,7 @@ function rmRF(inputPath) {
                 force: true,
                 maxRetries: 3,
                 recursive: true,
-                retryDelay: 300
+                retryDelay: 3000
             });
         }
         catch (err) {
